@@ -1,0 +1,38 @@
+div{
+    color:white;
+    padding:30px;
+}
+div.firstlayer{
+    background-color:red;
+    border:2px solid black;
+}
+div.secondlayer{
+    background-color:blue;
+    border:2px solid white;
+}
+div.thirdlayer{
+    background-color:white;
+    border:2px solid green;
+}
+div.fourthlayer{
+    background-color:green;
+    border:2px solid red;
+}
+div.fifthlayer{
+    background-color:red;
+    border:2px solid purple;   
+}
+div.sixthlayer{
+background-color:white;
+color:green;
+padding:30px;
+border:2px solid purple;
+}
+span.text_span
+{
+    color:lime;
+}
+span.emoji{
+    color:black;
+    font-size:40px;
+}

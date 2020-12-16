@@ -1,0 +1,76 @@
+.para1 {
+    border: solid thick green;
+    padding: 1in;
+    width: 300px;
+    background-color: pink;
+    color: green;
+    position: absolute;
+    top: 100px;
+    left: 3in;
+    right: 2in;
+    z-index: 1;
+}
+
+.para2 {
+    border: solid thick blue;
+    padding: 1in;
+    width: 300px;
+    background-color: green;
+    color: red;
+    position: absolute;
+    top: 150px;
+    left: 4in;
+    right: 2in;
+    z-index: 2;
+}
+
+.para3 {
+    border: solid thick yellow;
+    padding: 1in;
+    width: 300px;
+    background-color: blue;
+    color: violet;
+    position: absolute;
+    top: 200px;
+    left: 5in;
+    right: 2in;
+    z-index: 3;
+}
+
+.para4 {
+    border: solid thick brown;
+    padding: 1in;
+    width: 300px;
+    background-color: white;
+    color: rama;
+    position: absolute;
+    top: 250px;
+    left: 6in;
+    right: 2in;
+    z-index: 4;
+}
+
+p:hover {
+    background-color: rgb(250, 200, 130);
+    font-size: 40px;
+    color: purple;
+}
+
+img.para_img
+{
+    height:320px;
+    width:250px; 
+}
+img.left_img
+{
+    float:left;
+    height:200px;
+    width:150px;
+
+}
+img.right_img{
+    float:right;
+    height:200px;
+    width:150px;
+
+}

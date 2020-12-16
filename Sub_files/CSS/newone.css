@@ -1,0 +1,106 @@
+﻿body {
+    background: -webkit-linear-gradient(left, #ffff99, #ff9999);
+    margin: 0;
+}
+
+.a {
+    padding-left: 5px;
+    font-family: times new roman;
+    background: -webkit-linear-gradient(45deg, #ff4400 40%, green 10%, #00ccff 60%, #ff4400 60%);
+    background-size: 250px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: move 2s linear infinite;
+    font-style: normal;
+    font-size: 50px;
+    text-shadow: 0px 0px 20px #ff0099;
+}
+
+@keyframes move {
+    100% {
+        background-position: 250px;
+    }
+}
+
+.b {
+    font-size: 35px;
+    font-family: cursive;
+    padding-left: 10px;
+    text-shadow: 5px 5px 5px pink;
+}
+
+li {
+    list-style: none;
+    font-size: 20px;
+    font-family: times new roman;
+}
+
+li:before {
+    content: "\2661";
+    color: red;
+}
+
+#ol {
+    margin-left: 10px;
+    font-weight: bold;
+    color: purple;
+}
+
+#cont {
+    background-color: black;
+    border-style: ridge;
+}
+
+#flame {
+    background-color: orange;
+    height: 20px;
+    width: 20px;
+    border-radius: 0 50% 50% 50%;
+    transform: rotateZ(45deg);
+    box-shadow: 0px 0px 10px 7px yellow;
+    margin-top: 20px;
+}
+
+.an {
+    animation: wave 3s linear infinite;
+}
+
+@keyframes wave {
+    0% {
+        transform: rotateZ(0deg);
+    }
+    25% {
+        transform: rotateZ(-15deg);
+    }
+    50% {
+        transform: rotateZ(0deg);
+    }
+    75% {
+        transform: rotateZ(15deg);
+    }
+    100% {
+        transform: rotateZ(0deg);
+    }
+}
+
+#wax {
+    background-color: pink;
+    height: 100px;
+    width: 20px;
+    margin-top: 2px;
+}
+
+#text {
+    color: white;
+    font-variant: small-caps;
+    font-size: 25px;
+}
+
+u {
+    color: #00ff00;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+}

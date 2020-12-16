@@ -1,0 +1,51 @@
+<html>
+<head>
+	<meta name="viewport" content="width=300, initial-scale=1" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<style type="text/css">
+	
+        body
+        {
+            overflow-x: hidden;
+overflow-y: scroll;
+        }
+    
+/* basic styles for black background and crosshair cursor */
+body {
+	background: #000;
+	margin: 0;
+        
+}
+
+canvas {
+	cursor: crosshair;
+	display: block;
+}
+</style>
+<body>
+	<div style="visibility:hidden">
+		<audio loop>
+			<source src="./songs/fireworks.mp3" type="audio/mpeg">
+		</audio> 
+	</div>
+	<!-- setup our canvas element -->
+	<canvas id="canvas">Canvas is not supported in your browser.</canvas>
+	<script>
+		setTimeout("location.href = 'Birthday.html';",20000);
+	</script>
+	<script type="text/javascript" src="./js/fireworks.js"></script>
+	<script>
+		var firstTime = true;
+		var body = document.querySelector("body");
+		body.addEventListener("click",function(){
+			if(firstTime){
+				firstTime = false;
+				var music = document.querySelector("audio");
+      			music.play();
+			}
+		})
+	</script>
+
+</body>
+</html>
